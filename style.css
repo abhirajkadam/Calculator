@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html, body{
+    height: 100px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(wallpaper.jpeg);
+}
+
+.display {
+    height: 50px;
+    outline: none;
+    border: none;
+    text-align: right;
+}
+
+.container {
+    background-color: white;
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    padding: 10px 20px 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+}
+
+.button{
+    width: 65px;
+    font-size: 20px;
+    background-color: lightgrey;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 0 3px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.button:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.operator {
+    background-color: lime;
+}
+
+.equal {
+    background-color: rgb(252, 211, 4);
+}
+
+.row{
+    margin: 8px 0;
+}
+
+.row input{
+    font-size: 26px;
+    margin: 0;
+    padding: 10px 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 9px;
+}
+
+.mx-auto{
+    margin: auto;
+    margin-top: 100px;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+   flex-direction: column; 
+}
+
+.items-center{
+    align-items: center;
+}
